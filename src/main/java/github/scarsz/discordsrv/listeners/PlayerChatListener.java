@@ -28,11 +28,11 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
-
+import de.jeter.chatex.api.events.PlayerUsesGlobalChatEvent
 public class PlayerChatListener implements Listener {
 
     @EventHandler(priority = EventPriority.MONITOR)
-    public void onAsyncPlayerChat(AsyncPlayerChatEvent event) {
+    public void onAsyncPlayerChat(PlayerUsesGlobalChatEvent event) {
         Bukkit.getScheduler().runTaskAsynchronously(DiscordSRV.getPlugin(), () ->
                 DiscordSRV.getPlugin().processChatMessage(
                         event.getPlayer(),
