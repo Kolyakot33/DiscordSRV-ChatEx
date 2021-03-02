@@ -27,8 +27,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
-import de.jeter.chatex.api.events.PlayerUsesGlobalChatEvent
+import de.jeter.chatex.api.events.PlayerUsesGlobalChatEvent;
 public class PlayerChatListener implements Listener {
 
     @EventHandler(priority = EventPriority.MONITOR)
