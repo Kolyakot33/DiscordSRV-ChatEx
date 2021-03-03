@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/github/license/DiscordSRV/DiscordSRV.svg)](https://github.com/DiscordSRV/DiscordSRV/blob/master/LICENSE)
 
 A Minecraft to Discord and back link plugin
-
+DiscordSRV for ChatEX global chat only.
 ## Thanks to:
 <table>
     <tr>
